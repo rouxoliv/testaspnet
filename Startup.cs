@@ -22,7 +22,7 @@ namespace testaspnet
             
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello  Olivier!");
+                await context.Response.WriteAsync("Hello  Olivier - Last test!");
             });
         }
     }
